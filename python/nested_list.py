@@ -22,7 +22,7 @@ if __name__ == '__main__':
         # then sort and print them
         second_lowest_people = []
         for name, score in students:
-            if score == second_lowest:
+            if score == second_lowest: 
                 second_lowest_people.append(name)
 
         # Print the names in alphabetical order
